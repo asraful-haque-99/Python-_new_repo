@@ -9,14 +9,14 @@ marks = [[88,78,94],
          [72,43,78],
          [89,92,83]]
 
-# 1. Add 10 marks for all students who score < 50 in subject 1 (2nd column)
+# 7. Add 10 marks for all students who score < 50 in subject 1 (2nd column)
 for i in range(5):
     if marks[i][1] < 50:
         marks[i][1] += 10
 
 print("Updated marks:", marks)
 
-# 2. Find number of students who score > 80 in subject 2 (3rd column)
+# 8. Find number of students who score > 80 in subject 2 (3rd column)
 count = 0
 for i in range(5):
     if marks[i][2] > 80:
@@ -24,8 +24,8 @@ for i in range(5):
 
 print("Number of students:", count)
 
-# 3. Find minimum marks of student 2
+# 9. Find minimum marks of student 2
 print("Minimum marks of student 2:", min(marks[2]))
 
-# 4. Find maximum marks of student 4
+# 10. Find maximum marks of student 4
 print("Maximum marks of student 4:", max(marks[4]))
